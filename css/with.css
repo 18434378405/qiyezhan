@@ -82,28 +82,63 @@ body{
 .header1 li:hover{
 	color: #fff;
 }
-
-@keyframes color{
-  0%{
-    transform: translateY(-20px);
-  }
-  100%{
-    transform: translateY(100px);
-  }
-}
-.finally{
+.title1{
 	width: 100%;
-	height: auto;
+	height: 200px;
+	background: url('../img/pic2.jpg') no-repeat center;
+	background-size: 100%;
+	margin-top: 0;
 }
-.finally h3{
-	text-align: center;
-	font-size: 10px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	color: #fff;
+.state{
+	width: 100%;
+	height: 565px;
+	background: #fff;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
 }
+.state .state1-top{
+	width: 60%;
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+}
+.state .state1-top i{
+	font-size: 15px;
+}
+.state .state1-top span{
+	font-size: 20px;
+	color: #875221;
+}
+.state .state1-bottom{
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.state .state1-bottom a{
+	text-decoration: none;
+}
+.state .state1-bottom span{
+	font-size: 15px;
+	color: #555;
 
-
+}
+.state2{
+	border-bottom:1px dashed #bdbdbd;
+	margin-top: 24px;
+	padding-bottom: 13px;
+}
+.state2 i{
+	font-size: 9px;
+	color: #875221;
+}
+.state2 span{
+	font-size: 18px;
+	color: #875221;
+}
 /* >1200px */
 @media screen and (min-width: 1200px)
 {
@@ -113,29 +148,6 @@ body{
    .box{
    	display: block;
    }
-   .title1{
-	height: 500px;
-	width: 100%;
-	background: url('../img/pic1.jpg') no-repeat center;
-	border-bottom: 1px solid #fff;
-	background-size: 100%;
-	}
-	.title2{
-	color: #fff;
-	animation: color 2s linear forwards;
-	}
-	.title2 h3{
-    text-align: center;
-    font-size: 50px;
-    color: #875221;
-	}
-	.title2 h4{
-    text-align: center;
-    font-size: 20px;
-    color: #875221;
-    font-weight: normal;
-    margin-top: 20px;
-	}
 }
 /* <1200px */
 @media screen and (max-width: 1200px)
@@ -145,33 +157,17 @@ body{
    }
    .box{
    	display: block;
-   }.title1{
-	height: 400px;
-	width: 100%;
-	background: url('../img/pic1.jpg') no-repeat center;
-	border-bottom: 1px solid #fff;
-	background-size: 100%;
-	}
-	.title2{
-		display: none;
-	}
+   }
 }
 /* <992px */
 @media screen and (max-width: 992px)
 {
-   .box{
+	 .box{
    	display: none;
    }
    .box1{
    	display: block;
    }
-   .title1{
-	height: 300px;
-	width: 100%;
-	background: url('../img/pic1.jpg') no-repeat center;
-	border-bottom: 1px solid #fff;
-	background-size: 100%;
-}
 }
 /* <768px */
 @media screen and (max-width: 768px)
@@ -182,11 +178,4 @@ body{
    .box1{
    	display: block;
    }
-   .title1{
-	height: 300px;
-	width: 100%;
-	background: url('../img/pic1.jpg') no-repeat center;
-	border-bottom: 1px solid #fff;
-	background-size: 100%;
-}
 }
