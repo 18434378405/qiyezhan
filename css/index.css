@@ -9,9 +9,12 @@ body{
 	padding-right: 40px;
 	overflow: hidden;
 }
-.box img,.box1 img{
+.box img{
 	margin-top: 40px;
 	margin-left: 40px;
+}
+.box1 img{
+	margin:40px auto;
 }
 .box1{
 	width: 100%;
@@ -30,11 +33,11 @@ body{
 }
 .box2 i{
 	font-size: 25px;
-	text-align: center;
 	color: #fff;
+	margin-left: 10px;
 }
 .box2 span{
-	text-align: center;
+	margin-left: 10px;
 	font-size: 20px;
 	color: #fff;
 
