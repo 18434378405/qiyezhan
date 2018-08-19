@@ -127,7 +127,12 @@ body{
 .state .state1-bottom span{
 	font-size: 15px;
 	color: #555;
-
+}
+.state .state1-bottom .state1-bottom1 span:last-child{
+	float: right;
+}
+.state1-bottom{
+	margin-bottom: 60px;
 }
 .state2{
 	border-bottom:1px dashed #bdbdbd;
@@ -141,33 +146,6 @@ body{
 .state2 span{
 	font-size: 18px;
 	color: #875221;
-}
-.state .state3 img{
-	width: 100%;
-	height: auto;
-	margin-left: 0px;
-	border: 1px solid #ccc;
-	padding: 5px;
-	background-size: 50%;
-}
-.state3-box{
-	width: 45%;
-	height: auto;
-	display: inline-block;
-}
-.state3-box a,.state3-box1 a{
-	text-decoration: none;
-}
-.state3-box1{
-	width: 45%;
-	height: auto;
-	display: inline-block;
-}
-.state3-box h3,.state3-box1 h3{
-	font-size: 15px;
-	text-align: center;
-	color: #373A41;
-	margin-bottom: 60px;
 }
 .finally{
 	width: 100%;
@@ -192,10 +170,6 @@ body{
    .title1{
    	height: 200px;
    }
-   .state3-box1{
-   	margin-left: 40px;
-   	display: inline-block;
-   }
    .state .state1-top{
    	width: 80%;
    }
@@ -215,9 +189,6 @@ body{
 	 .title1{
    	height: 200px;
    }
-   .state3-box1{
-   	margin-left: 40px;
-   }
    .state .state1-top{
    	width: 80%;
    }
@@ -233,9 +204,6 @@ body{
    }
     .title1{
    	height: 100px;
-   }
-   .state3-box1{
-   	margin-left: 0px;
    }
    .state .state1-top{
    	width: 25%;
@@ -253,31 +221,13 @@ body{
     .title1{
    	height: 100px;
    }
-   .state3-box1{
-   	margin-left: 0px;
-   	display: block;
-   }
    .state .state1-top{
    	width: 80%;
-   }
-   .state3-box h3{
-   	font-size: 10px;
- 	margin-left: 60px;
-   }
-   .state3-box1 h3{
-   	font-size: 10px;
-   	margin-left: 60px;
    }
    .state1 .state1-top span{
    	font-size: 12px;
    }
    .state1 .state1-bottom span{
    	font-size: 10px;
-   }
-   .state3-box{
-   	width: 80%;
-   }
-   .state3-box1{
-   	width: 80%;
    }
 }
