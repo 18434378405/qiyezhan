@@ -114,12 +114,22 @@ body{
 	font-size: 15px;
 }
 .state .state1-top span{
-	font-size: 20px;
+	font-size: 17px;
 	color: #875221;
 }
 .state .state1-bottom{
 	margin-left: 5px;
 	margin-top: 10px;
+}
+.state .state1-bottom:nth-child(2){
+	width: 78%;
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 8px;
+}
+.state .state1-bottom:nth-child(5){
+	width: 78%;
+	border-bottom: 1px solid #e4e4e4;
+	padding-bottom: 8px;
 }
 .state .state1-bottom a{
 	text-decoration: none;
@@ -127,12 +137,7 @@ body{
 .state .state1-bottom span{
 	font-size: 15px;
 	color: #555;
-}
-.state .state1-bottom .state1-bottom1 span:last-child{
-	float: right;
-}
-.state1-bottom{
-	margin-bottom: 60px;
+
 }
 .state2{
 	border-bottom:1px dashed #bdbdbd;
@@ -147,22 +152,32 @@ body{
 	font-size: 18px;
 	color: #875221;
 }
-.state3{
+.state .state3 img{
 	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-left: 0px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background-size: 50%;
 }
-.state3 ul li{
+.state3-box{
+	width: 45%;
+	height: auto;
+	display: inline-block;
+}
+.state3-box a,.state3-box1 a{
+	text-decoration: none;
+}
+.state3-box1{
+	width: 45%;
+	height: auto;
+	display: inline-block;
+}
+.state3-box h3,.state3-box1 h3{
 	font-size: 15px;
-	margin-bottom: 30px;
-}
-.state3 ul li:last-child{
+	text-align: center;
+	color: #373A41;
 	margin-bottom: 60px;
-}
-.state3 ul li h3{
-	font-size: 15px;
-	margin-top: 5px;
-	margin-bottom: 40px;
 }
 .finally{
 	width: 100%;
@@ -187,6 +202,10 @@ body{
    .title1{
    	height: 200px;
    }
+   .state3-box1{
+   	margin-left: 40px;
+   	display: inline-block;
+   }
    .state .state1-top{
    	width: 80%;
    }
@@ -206,6 +225,9 @@ body{
 	 .title1{
    	height: 200px;
    }
+   .state3-box1{
+   	margin-left: 40px;
+   }
    .state .state1-top{
    	width: 80%;
    }
@@ -222,8 +244,14 @@ body{
     .title1{
    	height: 100px;
    }
+   .state3-box1{
+   	margin-left: 0px;
+   }
    .state .state1-top{
    	width: 25%;
+   }
+   .state .state1-bottom:nth-child(2){
+   	width: 30%;
    }
 }
 /* <768px */
@@ -238,13 +266,34 @@ body{
     .title1{
    	height: 100px;
    }
+   .state3-box1{
+   	margin-left: 0px;
+   	display: block;
+   }
    .state .state1-top{
-   	width: 50%;
+   	width: 80%;
+   }
+   .state3-box h3{
+   	font-size: 10px;
+ 	margin-left: 60px;
+   }
+   .state3-box1 h3{
+   	font-size: 10px;
+   	margin-left: 60px;
    }
    .state1 .state1-top span{
-   	font-size: 15px;
+   	font-size: 12px;
    }
    .state1 .state1-bottom span{
    	font-size: 10px;
+   }
+   .state3-box{
+   	width: 80%;
+   }
+   .state3-box1{
+   	width: 80%;
+   }
+   .state .state1-bottom:nth-child(2){
+   	width: 50%;
    }
 }
